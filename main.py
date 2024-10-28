@@ -19,8 +19,14 @@ question = (input("Do you want me to tell you your fortune? [y/n]: "))
 x = question.lower 
 time.sleep(2)
 
-if question in "y"  "yes": 
+if question in ["y"  "yes"]: 
  time.sleep(1)
+
+ print("Okay! To get your fortune, please input a magic color: [blue/red/green/yellow]")
+ color = (input("Color: "))
+ y = question.lower 
+ 
+
   
 
 
